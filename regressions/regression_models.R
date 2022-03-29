@@ -12,8 +12,8 @@ lapply(list_of_packages, library, character.only = TRUE)
 
 
 # 0. Data and package setup -----
-load("data/author_data_cleaned.Rdata") # All data at individual author level
-load("data/counterfactual_data_cleaned.Rdata") # Data for counterfactual time period
+load("data/author_data_cleaned_anon.Rdata") # All data at individual author level
+load("data/counterfactual_data_cleaned_anon.Rdata") # Data for counterfactual time period
 
 
 ## 0.1 Gender variables (text and factor) ----
